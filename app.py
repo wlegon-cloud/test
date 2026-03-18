@@ -1,6 +1,6 @@
 import streamlit as st
 from datetime import datetime
-from config import PRODUCTOS, CAMPOS_OBLIGATORIOS
+from config import PRODUCTOS
 from sheets import get_sheet, ensure_headers, append_lead, check_duplicate
 
 # ── Page config ───────────────────────────────────────────────────────────────
