@@ -65,16 +65,19 @@ html, body, [class*="css"] {
     border-radius: 4px;
     padding: 2rem 2rem 1.8rem;
     margin-bottom: 2rem;
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.hero-content {
+    flex: 1;
+    min-width: 0;
 }
 .hero-logo {
-    position: absolute;
-    right: 1.8rem;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 56px;
+    height: 52px;
     width: auto;
+    flex-shrink: 0;
     opacity: 0.92;
 }
 .hero-tag {
@@ -255,10 +258,12 @@ ensure_headers(sheet)
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown(f"""
 <div class="hero">
+    <div class="hero-content">
+        <div class="hero-tag">Stand &middot; Registro de Contactos</div>
+        <div class="hero-title">Registro de Leads</div>
+        <p class="hero-sub">Completá los datos del contacto y guardá en Google Sheets</p>
+    </div>
     {logo_html}
-    <div class="hero-tag">Stand &middot; Registro de Contactos</div>
-    <div class="hero-title">Registro de Leads</div>
-    <p class="hero-sub">Completá los datos del contacto y guardá en Google Sheets</p>
 </div>
 """, unsafe_allow_html=True)
 
