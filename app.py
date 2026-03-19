@@ -17,7 +17,7 @@ st.markdown("""
 
 html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
 
-.stApp { background: #0f0f0f; color: #f0ece4; }
+.stApp { background: #fffff; color: #f0ece4; }
 
 .hero {
     background: linear-gradient(135deg, #1a1a1a, #111);
