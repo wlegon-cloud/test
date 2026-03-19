@@ -260,7 +260,7 @@ st.markdown(f"""
 <div class="hero">
     <div class="hero-content">
         <div class="hero-tag">Stand &middot; Registro de Contactos</div>
-        <div class="hero-title">Registro de Leads</div>
+        <div class="hero-title">Registro de Contactos</div>
         <p class="hero-sub">Completá los datos del contacto y guardá en Google Sheets</p>
     </div>
     {logo_html}
