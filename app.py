@@ -6,7 +6,7 @@ from sheets import get_sheet, ensure_headers, append_lead, check_duplicate
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Essen Soluciones · Registro de Leads",
+    page_title="Essen Soluciones · Registro de contactos",
     page_icon="favicon.png" if __import__('os').path.exists("favicon.png") else None,
     layout="centered",
 )
