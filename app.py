@@ -269,7 +269,7 @@ st.markdown(f"""
 
 if st.session_state.leads_session > 0:
     st.markdown(
-        f'<div class="counter">Leads cargados esta sesión: '
+        f'<div class="counter">Contactos guardados esta sesión: '
         f'<span>{st.session_state.leads_session}</span></div>',
         unsafe_allow_html=True,
     )
@@ -277,7 +277,7 @@ if st.session_state.leads_session > 0:
 
 # ── Mensaje de éxito ──────────────────────────────────────────────────────────
 if st.session_state.success_msg:
-    st.success("Lead guardado correctamente en Google Sheets.")
+    st.success("Datos guardados correctamente.")
     st.session_state.success_msg = False
 
 
