@@ -29,7 +29,9 @@ logo_html = (
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap');
-
+header[data-testid="stHeader"] { display: none !important; }
+footer { display: none !important; }
+#MainMenu { display: none !important; }
 /* Milliard no está en Google Fonts, Barlow es la alternativa más cercana */
 :root {
     --negro:   #000000;
