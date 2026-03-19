@@ -41,7 +41,7 @@ footer { display: none !important; }
     --gris1:   #111111;
     --gris2:   #1C1C1C;
     --gris3:   #2A2A2A;
-    --gris4:   #FFFFFF;
+    --gris4:   #2A2A2A;
     --gris5:   #888888;
 }
 
