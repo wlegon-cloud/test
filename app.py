@@ -33,7 +33,7 @@ st.markdown("""
     --negro:     #000000;
     --rojo:      #CC0000;
     --rojo-vivo: #E00000;
-    --blanco:    #444444;
+    --blanco:    #FFFFFF;
     --gris1:     #111111;
     --gris2:     #1C1C1C;
     --gris3:     #2A2A2A;
@@ -187,7 +187,7 @@ footer { display: none !important; }
     border: 1px solid var(--gris3) !important;
     border-radius: 3px !important;
     color: var(--blanco) !important;
-    -webkit-text-fill-color: var(--blanco) !important;
+    -webkit-text-fill-color: ##656464 !important;
     font-family: 'Barlow', sans-serif !important;
     font-size: 0.95rem !important;
 }
