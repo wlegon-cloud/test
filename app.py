@@ -33,7 +33,7 @@ st.markdown("""
     --negro:     #000000;
     --rojo:      #CC0000;
     --rojo-vivo: #E00000;
-    --blanco:    #FFFFFF;
+    --blanco:    #2A2A2A;
     --gris1:     #111111;
     --gris2:     #1C1C1C;
     --gris3:     #2A2A2A;
