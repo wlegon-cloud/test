@@ -1,7 +1,7 @@
 # ── Configuración de la app ───────────────────────────────────────────────────
 
 # Nombre de tu Google Spreadsheet (exacto, como aparece en Drive)
-SPREADSHEET_NAME = "Leads Feria"
+SPREADSHEET_NAME = "Feria_2026"
 
 # Nombre de la hoja dentro del spreadsheet
 SHEET_NAME = "Leads"
