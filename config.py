@@ -20,6 +20,7 @@ PRODUCTOS = [
 
 # Vendedores: { "INICIALES": "Nombre completo" }
 VENDEDORES = {
+    "JR": "Julio Rodríguez",
     "CR": "Carolina Rodríguez",
     "CP": "Cecilia Pérez",
     "JP": "Juan Porro",
