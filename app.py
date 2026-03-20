@@ -436,7 +436,8 @@ if st.button("Guardar lead", type="primary"):
         for e in errores:
             st.error(e)
     else:
-        now = datetime.now()
+        tz = pytz.timezone("America/Montevideo")
+        now = datetime.now(tz)
         row = [
             now.strftime("%d/%m/%Y"),
             now.strftime("%H:%M"),
