@@ -201,7 +201,7 @@ footer { display: none !important; }
     border: 1px solid var(--gris3) !important;
     border-radius: 3px !important;
     color: var(--blanco) !important;
-    -webkit-text-fill-color: var(--blanco) !important;
+    -webkit-text-fill-color: #656464 !important;
     font-family: 'Barlow', sans-serif !important;
     font-size: 0.95rem !important;
 }
