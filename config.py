@@ -20,14 +20,14 @@ PRODUCTOS = [
 
 # Vendedores: { "INICIALES": "Nombre completo" }
 VENDEDORES = {
-    "CR": "Carlos Rodríguez",
-    "CP": "Claudia Pereira",
-    "JP": "Juan Pérez",
-    "LM": "Laura Martínez",
-    "AG": "Andrés González",
-    "FA": "Federico Álvarez",
-    "WL": "Walter López",
-    "EC": "Elena Castro",
+    "CR": "Carolina Rodríguez",
+    "CP": "Cecilia Pérez",
+    "JP": "Juan Porro",
+    "LM": "Leonardo Mocchi",
+    "AG": "Agustín Gómez",
+    "FA": "Facundo Alberro",
+    "WL": "Wester Legon",
+    "EC": "Emiliano Castro",
 }
 
 # Columnas en el orden que van a aparecer en Google Sheets
